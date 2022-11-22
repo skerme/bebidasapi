@@ -219,12 +219,12 @@ export class VendaService {
    console.log("eeeeeee333333333",intervalo_inicio, intervalo_fim)
 
 
-    intervalo_inicio.setHours(0)
+    intervalo_inicio.setHours(4)
     intervalo_inicio.setMinutes(0)
     intervalo_inicio.setSeconds(0)
     intervalo_inicio.setMilliseconds(0)
 
-    intervalo_fim.setHours(+24)
+    intervalo_fim.setHours(+28)
     intervalo_fim.setMinutes(0)
     intervalo_fim.setSeconds(0)
     intervalo_fim.setMilliseconds(0)
